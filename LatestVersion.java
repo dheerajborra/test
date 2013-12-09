@@ -8,7 +8,7 @@ public class LatestVersion {
 		String str2 = "1.2.3.35";
 		
 		str1 = str1.replace(".","A");
-		str2 = str2.replace(".","A");
+		str2 = str2.replace(".","C");
 		
 		int t = str1.compareTo(str2);
 		if(t == 0)
